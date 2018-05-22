@@ -21,10 +21,6 @@ class Home extends Component {
                 <Link className="nav-link pl-0" to="/theme-config">Theme configuration</Link>
                 <Link className="nav-link pl-0" to="/sdk-api">Usage of public API</Link>
               </Nav>
-              <hr />
-              <a href="https://github.com/dsolovieva/cc-sdk-examples">
-                <ExternalLink /><span class="align-text-bottom pl-1">All sources</span>
-              </a>
             </Col>
             <Col sm="12" md="10">
               <Route exact path="/" render={() => (

@@ -10,7 +10,7 @@ class Example extends Component {
   render() {
     return (
       <div className="Example d-lg-flex">
-        <ExampleResult src={`${process.env.PUBLIC_URL}/cc-sdk-examples/${this.props.match.params.example}/index.html`} />
+        <ExampleResult src={`${process.env.PUBLIC_URL}/examples-sources/${this.props.match.params.example}/index.html`} />
         <ExampleSource url={`${process.env.PUBLIC_URL}/examples/${this.props.match.params.example}.example`} />
       </div>
     );

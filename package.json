@@ -1,6 +1,6 @@
 {
-  "name": "sdk-examples-app",
-  "homepage": "https://dsolovieva.github.io/sdk-examples-app",
+  "name": "ghpages-demo",
+  "homepage": "https://dsolovieva.github.io/ghpages-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

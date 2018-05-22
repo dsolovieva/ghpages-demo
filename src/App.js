@@ -10,7 +10,7 @@ class App extends Component {
         <Router>
           <Fragment>
             <Route path="/" component={Home} />
-            <Route path="/cc-sdk-examples" render={() => {}} />
+            <Route path="/examples-sources" render={() => {}} />
           </Fragment>
         </Router>
       </div>
